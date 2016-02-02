@@ -2,16 +2,20 @@ body {
     margin:0px;
 }
 
-#responsive_div {
+.rwd {
     background: orange;
     width:200px;
     height: 200px;
+    margin: 5px;
+    float: left;
 }
 
 @media (max-width: 400px) {
-    #responsive_div {
+    .rwd {
         background: yellow;
         width: 300px;
         height: 100px;
+        margin: 5px 0;
+        float: left;
     }
 }
