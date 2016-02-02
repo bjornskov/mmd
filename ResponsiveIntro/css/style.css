@@ -1,0 +1,17 @@
+body {
+    margin:0px;
+}
+
+#responsive_div {
+    background: orange;
+    width:200px;
+    height: 200px;
+}
+
+@media (max-width: 400px) {
+    #responsive_div {
+        background: yellow;
+        width: 300px;
+        height: 100px;
+    }
+}
