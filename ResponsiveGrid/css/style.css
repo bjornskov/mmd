@@ -50,6 +50,28 @@ body {
     background: blue;
 }
 
+.box_fifth_sixth {
+    width: 830px;
+    margin-right: 20px;
+    height: 40px;
+    float:left;
+    background: blue;
+}
 
+.box_fifth_sixth:last-child {
+    margin-right: 0;
+}
+
+.box_four_sixth {
+    width: 660px;
+    margin-right: 20px;
+    height: 40px;
+    float:left;
+    background: blue;
+}
+
+.box_fifth_sixth:last-child {
+    margin-right: 0;
+}
 
 class*="box_" {width:100%;}
