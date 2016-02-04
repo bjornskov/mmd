@@ -26,7 +26,7 @@ body {
     margin-right: 20px;
     height: 200px;
     float:left;
-    background: blue;
+    background: #4a89d0;
     margin-bottom: 10px;
 
 }
@@ -41,7 +41,7 @@ body {
     margin-right: 20px;
     height: 60px;
     float:left;
-    background: blue;
+    background: #ffa335;
     margin-bottom: 10px;
 
 }
@@ -54,7 +54,7 @@ body {
     width: 1024px;
     height: 400px;
     float:left;
-    background: blue;
+    background: #daec00;
     margin-bottom: 10px;
 
 }
@@ -91,7 +91,7 @@ body {
     margin-right: 20px;
     height: 150px;
     float:left;
-    background: blue;
+    background: #e3e3e3;
     margin-bottom: 10px;
 
 }
@@ -103,8 +103,25 @@ body {
 
 @media (max-width: 728px) {
     [class*="box_"]{width:100%;}
+
+    .box_one_fourth {
+        width: 353px;
+        margin-right: 20px;
+
+    }
+
+    .box_one_fourth:last-child {
+        margin-right: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 320px) {
     [class*="box_"]{width:100%;}
+
+
 }
