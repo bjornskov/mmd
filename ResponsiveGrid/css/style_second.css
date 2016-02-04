@@ -105,8 +105,8 @@ body {
     [class*="box_"]{width:100%;}
 
     .box_one_fourth {
-        width: 353px;
-        margin-right: 20px;
+        width: 49%;
+        margin-right: 1%;
 
     }
 
