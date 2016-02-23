@@ -7,7 +7,7 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 /* Controlling the slide effect */
 
 #menu {
-
+    display: none;
 }
 
 #menu.active {
@@ -72,6 +72,9 @@ ul {
 /* MENU - Desktop */
 
 #desktop_menu {
+    width: 100%;
+    height: 97px;
+    background: #373c3f;
 }
 #desktop_menu ul {
 }
@@ -102,15 +105,38 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 .banner h3 { }
 #banner_click {   }
 .banner {
+    width: 100%;
+    height: 578px;
+    background: #28b9ca;
+    background: -moz-linear-gradient(-45deg,  #28b9ca 0%, #0e8da6 100%);
+    background: -webkit-linear-gradient(-45deg,  #28b9ca 0%,#0e8da6 100%);
+    background: linear-gradient(135deg,  #28b9ca 0%,#0e8da6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28b9ca', endColorstr='#0e8da6',GradientType=1 );
 }
 
 /* Info area CSS */
 
 .info_box {   }
 .info_left {
+    flot:left; width: 77.734375%; color: #fff; height: 245px;
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack:center;
+    box-align:center;
 }
 
 .info_right {
+    width: 22.265625%;
+    height: 245px;
+    background: red;
+
 }
 
 /* Three_box area CSS */
@@ -138,8 +164,12 @@ nav#menu li a:active, #desktop_menu li a:active {  }
    
     .top  {   }
    
-    #menu {  }
-    nav#desktop_menu {   }
+    #menu {
+        display: block;
+    }
+    nav#desktop_menu {
+
+    }
 
     .banner {   }
     .banner_toptext {  }
