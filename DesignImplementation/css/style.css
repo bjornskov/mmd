@@ -138,7 +138,6 @@ nav#menu li a:active, #desktop_menu li a:active {  }
     height: 245px;
     background: #bc3183;
     float: left;
-
 }
 
 /* Three_box area CSS */
@@ -146,11 +145,25 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 .three_box {  }
 
 .three_left {
+    width: 33.33333333333%;
+    height: 294px;
+    background: black;
+    float: left;
 }
-.three_mid {   }
+.three_mid {
+    width: 33.33333333333%;
+    height: 294px;
+    background: blue;
+    float: left;
+}
 .three_mid img, .three_right img {  }
 
-.three_right {   }
+.three_right {
+    width: 33.33333333333%;
+    height: 294px;
+    background: red;
+    float: left;
+}
 
 /* Footer area CSS */
 
