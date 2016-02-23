@@ -1,0 +1,160 @@
+/* Global CSS */
+
+body { background-color:#eee; padding:0; margin:0;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+/* Controlling the slide effect */
+
+#menu {
+
+}
+
+#menu.active {
+
+}
+
+.menu-link {
+
+}
+
+.container {
+
+}
+
+.container.active {
+
+}
+
+/* Slider effect - save for last and will be shown in class */
+
+
+/* Styling */
+
+/* MENU - Global */
+
+li.current, li.current a, li.current a:active {  }
+
+a {
+
+  }
+
+ul { 
+
+}
+
+
+#transparent_layer { height:25px; background-color:transparent; width:35px; position:relative; top:-10px } /*Click area for invisible field for mobile menu*/
+
+#menu-link-icon, #menu-link-icon:after, #menu-link-icon:before {
+     position:absolute;
+     width:35px;
+     height:5px;
+     background:black;
+     border-radius:20px;
+}
+#menu-link-icon {
+     display:block;
+     text-indent:-999em;
+     top:25px;
+}
+#menu-link-icon:after, #menu-link-icon:before {
+     content:"\00a0";
+     left:0;
+}
+#menu-link-icon:before {
+     top:-10px;
+}
+#menu-link-icon:after {
+     top:10px;
+}
+
+/* MENU - Desktop */
+
+#desktop_menu {
+}
+#desktop_menu ul {
+}
+#desktop_menu li {
+}
+#desktop_menu li a {
+}
+#desktop_menu li + li {
+}
+
+
+/* MENU - mobile */
+
+nav#menu { }
+nav#menu ul { }
+nav#menu li {  }
+nav#menu li a {   }
+nav#menu li:hover {  }
+nav#menu li a:hover, #desktop_menu li a:hover {   }
+nav#menu li a:active, #desktop_menu li a:active {  }
+
+/* Top area CSS */
+
+.top {  }
+
+/* Banner area CSS */
+.banner h2 {   }
+.banner h3 { }
+#banner_click {   }
+.banner {
+}
+
+/* Info area CSS */
+
+.info_box {   }
+.info_left {
+}
+
+.info_right {
+}
+
+/* Three_box area CSS */
+
+.three_box {  }
+
+.three_left {
+}
+.three_mid {   }
+.three_mid img, .three_right img {  }
+
+.three_right {   }
+
+/* Footer area CSS */
+
+.footer {
+}
+.footer_text {   }
+.footer h2 {   }
+.footer p {   }
+
+
+/* Media Query section */ 
+@media all and (max-width: 480px) {
+   
+    .top  {   }
+   
+    #menu {  }
+    nav#desktop_menu {   }
+
+    .banner {   }
+    .banner_toptext {  }
+    .banner h2 {  }
+    .banner h3 {  }
+    #banner_click {  }
+    
+    .info_box, .info_left, .info_right {   }
+    .info_left {   }
+    .info_right {   }
+    
+    .three_left { }
+    .three_mid {   }
+    .three_right {  }
+        
+    .footer_text {   }
+}
+
