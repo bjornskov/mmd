@@ -101,8 +101,29 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 .top {  }
 
 /* Banner area CSS */
-.banner h2 {   }
-.banner h3 { }
+.banner h2 {
+    margin: 0;
+    padding-left: 82px;
+    padding-top: 205px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+.banner h3 {
+    margin: 0;
+    padding-left: 82px;
+    padding-top: 52px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    color: white;
+    opacity: 0.5;
+    float:left;
+}
+
+.banner img {
+    padding-top: 49px;
+    padding-left:320px;
+}
 #banner_click {   }
 .banner {
     width: 100%;
@@ -118,7 +139,10 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 
 .info_box {   }
 .info_left {
-    float:left; width: 77.7343%; color: #fff; height: 245px;
+    float:left;
+    width: 77.7343%;
+    color: #fff;
+    height: 245px;
     display:-ms-flexbox;
     -ms-flex-pack:center;
     display:-moz-box;
@@ -131,6 +155,9 @@ nav#menu li a:active, #desktop_menu li a:active {  }
     box-pack:center;
     box-align:center;
     background: #27212c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #9282a0;
 }
 
 .info_right {
@@ -197,7 +224,8 @@ nav#menu li a:active, #desktop_menu li a:active {  }
     background: #ebebeb;
     float: left;
 }
-.footer_text {   }
+.footer_text {
+}
 .footer h2 {   }
 .footer p {   }
 
