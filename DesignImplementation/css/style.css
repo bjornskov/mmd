@@ -1,6 +1,6 @@
 /* Global CSS */
 
-body { background-color:#eee; padding:0; margin:0;
+body { background-color:#fff; padding:0; margin:0;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
@@ -138,6 +138,17 @@ nav#menu li a:active, #desktop_menu li a:active {  }
     height: 245px;
     background: #bc3183;
     float: left;
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack:center;
+    box-align:center;
 }
 
 /* Three_box area CSS */
@@ -147,8 +158,19 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 .three_left {
     width: 33.33333333333%;
     height: 294px;
-    background: black;
+    background: #5b0fa1;
     float: left;
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    display: box;
+    box-pack:center;
+    box-align:center;
 }
 .three_mid {
     width: 33.33333333333%;
