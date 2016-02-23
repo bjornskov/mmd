@@ -118,7 +118,7 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 
 .info_box {   }
 .info_left {
-    flot:left; width: 77.734375%; color: #fff; height: 245px;
+    float:left; width: 77.7343%; color: #fff; height: 245px;
     display:-ms-flexbox;
     -ms-flex-pack:center;
     display:-moz-box;
@@ -130,12 +130,14 @@ nav#menu li a:active, #desktop_menu li a:active {  }
     display: box;
     box-pack:center;
     box-align:center;
+    background: #27212c;
 }
 
 .info_right {
     width: 22.265625%;
     height: 245px;
-    background: red;
+    background: #bc3183;
+    float: left;
 
 }
 
