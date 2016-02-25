@@ -262,10 +262,6 @@ nav#menu li a:active, #desktop_menu li a:active {  }
 
 @media all and (min-width: 1024px) {
 
-    .container {
-        max-width: 1024px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+
 }
 
